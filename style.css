@@ -1,13 +1,48 @@
-.jumbotron{background-color:#fefeef;}
+
 
 .jumbotron {
-      background: url('falafel.jpg') no-repeat center center fixed; 
+	width: auto;
+	margin: -20px 0 40px 0;
+	padding: 180px 0 0 50px;
+	height: 300px;
+      background: no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	color: #fff;
+	color: #hhh;
 }
 
-h1{font-family: 'Gilda Display', serif;}
+.navbar {
+	width: auto;
+	height: 10px; 
+	background-color: #2C3539;
+}
 
+.navcontainer {margin-left: 900px
+}
+
+.nametitle {
+	color: #C0C0C0;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 45px
+	
+}
+
+.nametitle { text-align: center;}
+
+hr { width:100%; height:1px; background: #fff }
+
+</style>
+
+
+h1{font-family:"avenir";}
+
+@font-face {
+        font-family: "avenir";
+        src: url(avenir-light.woff);
+}
+* {
+    font-family: "avenir";
+}
